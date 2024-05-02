@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="barbearia matheus.jpeg"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="produtos.html">produtos</a></li>
+                    <li><a href="contatos.html">contatos</a></li>
+                </Ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+
+            <label for="nomecompleto">Nome completo</label>
+            <input id="nomecompleto" type="text">
+
+            <label for="email">E-mail </label>
+            <input id="email" placeholder="seuemail@gmail.com" required type="email">
+
+            <label for="telefone">telefone</label>
+            <input id="telefone" placeholder="(xx)xxxx-xxxx" type="text">
+
+            <label for="mensagem">mensagem</label>
+            <textarea cols="70"required rows="10" id="mensagem"></textarea>
+
+            <div>
+                <p>como prefere nosso contato?</p>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="Email" id="radio-email">
+
+                <label for="radio-telefone">telefone </label>
+                <input type="radio"  name="contato"  value="" id="radio-telefone"> 
+    
+                <label for="radio-whatsapp">whatsapp</label>
+                <input type="radio" name="contato"checked value="" id="radio-whatsapp">
+            </div>
+            <label>
+                <input type="checkbox" name="contato" checked id="contato">
+                <p> Gostaria de receber nosso contato?</p>
+             <label>
+
+            <div>
+              <p>Qual horário prefere ser atendido?</p>
+             <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+             </select>
+            </div>
+            <input type="submit" class="enviar" value="Enviar Formulario">
+        </form>
+    </main>
+    <footer>
+        <img src="logo-branco,png">
+        <p>&copy;copyright barbearia desenvolvido por Matheus</p>
+    </footer>
+</body>
+
+</html>
